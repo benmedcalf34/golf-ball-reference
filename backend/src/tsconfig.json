@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",         // or "esnext" depending on your setup
+    "target": "es2017",           // or higher (e.g., es2020)
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "dist"
+  }
+}

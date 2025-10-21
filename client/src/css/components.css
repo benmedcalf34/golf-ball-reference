@@ -1,0 +1,31 @@
+.ball-image {
+    max-width: 100px;
+    max-height: 200px;
+    width: 100%;
+}
+
+.popup-ball-image {
+    max-width: 200px;
+    /* max-height: 250px; */
+    width: 100%;
+}
+
+.arrow-right::after {
+  content: "→";
+  color: black;
+  font-size: 30px;
+}
+
+.arrow-left::before {
+  content: "←";
+  color: black;
+  font-size: 30px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.ball-row {
+    vertical-align: middle;
+}
